@@ -1,8 +1,11 @@
+<?php if (!isset($pageTitle)):
+    $pageTitle='Staff Area';
+    endif ?>
 <!doctype html>
 <html lang="en">
 
 <head>
-  <title>GBI</title>
+  <title>GBI - <?= $pageTitle; ?></title>
   <meta charset="utf-8">
   <link rel="stylesheet" media="all" href="../stylesheets/staff.css">
 </head>
