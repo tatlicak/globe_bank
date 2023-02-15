@@ -1,5 +1,6 @@
 <?php
- isset($_GET["id"])? $id=$_GET["id"] : $id="Parameter not set yet";
+  //$id=isset($_GET["id"])? $_GET["id"] : "Parameter not set yet";
+  $id= $_GET["id"]?? 0; // PHP > 7.0
 
  echo $id;
 ?>
