@@ -18,4 +18,10 @@ function url_for($script_path) {
     return rawurlencode($string);
 
   }
+
+  function h($string=""){
+
+    return htmlspecialchars($string);
+
+  }
 ?>

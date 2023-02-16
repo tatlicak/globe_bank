@@ -3,7 +3,7 @@
   //$id=isset($_GET["id"])? $_GET["id"] : "Parameter not set yet";
   $id= $_GET["id"]?? 0; // PHP > 7.0
 
- echo $id;
+ echo h($id);
 ?>
 <a href="show.php?name=<?php echo u('John Doe') ?>">Link-1</a>
 
