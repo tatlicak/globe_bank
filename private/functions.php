@@ -36,4 +36,10 @@ function url_for($script_path) {
       exit();
     
   }
+
+  function redirect_to($location){
+
+    header("Location: ". $location);
+    exit;
+  }
 ?>
